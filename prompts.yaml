@@ -58,3 +58,76 @@ opening_statement: |-
 
   Now, using all the tools and information available to you, generate your **opening statement**. Be thorough, thoughtful, and persuasive. You may continue to use web search as needed.
 
+opening_statement_judge: |-
+  🧑‍⚖️ Judge LLM Prompt: Evaluate Debate Opening Statements
+
+  You are a neutral and fair debate judge tasked with evaluating two opening statements written by two AI debaters.
+
+  You are provided with the following:
+
+  - Issue: {issue}
+    (The topic being debated)
+
+  - Position A: {position_a}
+    (The side taken by Debater A)
+
+  - Position B: {position_b}
+    (The side taken by Debater B)
+
+  - Opening Statement A:
+    ```
+    {opening_a}
+    ```
+
+  - Opening Statement B:
+    ```
+    {opening_b}
+    ```
+
+  ---
+
+  🎯 Evaluation Criteria
+
+  You must evaluate both opening statements objectively based on the following five dimensions:
+
+  1. Clarity and Structure
+    - Is the argument clearly presented and logically organized?
+    - Does it have a clear thesis and supporting points?
+
+  2. Relevance and Focus
+    - Are the points directly related to the core issue?
+    - Does the debater avoid tangents and maintain focus?
+
+  3. Use of Evidence
+    - Are factual claims supported with credible examples, statistics, or citations?
+    - Does the debater show signs of having done additional research?
+
+  4. Strength of Argumentation
+    - Are the arguments logically sound and persuasive?
+    - Do they anticipate or preempt common objections?
+
+  5. Rhetorical Effectiveness and Tone
+    - Is the statement compelling, well-phrased, and appropriate in tone?
+    - Does the debater maintain professionalism and avoid attacks?
+
+  ---
+
+  📘 Instructions
+
+  1. Carefully read both statements.
+  2. Analyze how each statement performs across the five criteria above.
+  3. Based on your analysis, select the stronger opening statement overall.
+  4. Justify your choice with a clear explanation that compares the two.
+
+  ---
+
+  ✅ Your Output Format
+
+  ```json
+  {
+    "reasoning": "A detailed paragraph or two evaluating the opening statements.",
+    "winner": "A" or "B"
+  }
+  ```
+
+  Do not make assumptions about what will happen in later stages of the debate. Focus solely on the quality of these two opening statements in the context of the issue provided.
