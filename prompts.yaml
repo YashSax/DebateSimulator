@@ -123,11 +123,7 @@ opening_statement_judge: |-
 
   ✅ Your Output Format
 
-  ```json
-  {
-    "reasoning": "A detailed paragraph or two evaluating the opening statements.",
-    "winner": "A" or "B"
-  }
-  ```
+  Reasoning: A detailed paragraph or two evaluating the opening statements.
+  Winner: "A" or "B"
 
   Do not make assumptions about what will happen in later stages of the debate. Focus solely on the quality of these two opening statements in the context of the issue provided.
