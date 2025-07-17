@@ -2,6 +2,9 @@
 
 A multi-agent debate system powered by LangGraph. This project simulates structured debates between AI agents (and optionally human participants) on various topics. Each debate is judged round-by-round by an AI judge agent, and agents can perform web research to strengthen their arguments.
 
+## Agentic Architecture
+<img width="815" height="1475" alt="image" src="https://github.com/user-attachments/assets/fbba8360-c20c-4da0-9d85-94706cd97e24" />
+
 ---
 
 ## 🎯 Project Goals
