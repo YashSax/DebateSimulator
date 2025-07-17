@@ -44,7 +44,7 @@ After each round:
 - Evaluates each round for clarity, logic, and persuasiveness
 - Assigns a winner for each round and provides rationale
 
-### (Optional) Human Participant
+### (Future) Human Participant
 - Users can join the debate or vote as a judge
 
 ### (Future) Moderator Agent
