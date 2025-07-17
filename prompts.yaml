@@ -124,6 +124,81 @@ opening_statement_judge: |-
   ✅ Your Output Format
 
   Reasoning: A detailed paragraph or two evaluating the opening statements.
-  Winner: "A" or "B"
+  Winning position: The position of the winner
 
   Do not make assumptions about what will happen in later stages of the debate. Focus solely on the quality of these two opening statements in the context of the issue provided.
+
+rebuttal: |-
+  🗣️ AI Debater Rebuttal Prompt
+
+  You are an AI debater preparing your **rebuttal** in a formal debate.
+
+  You are provided with the following inputs:
+
+  - **Issue**: {issue}  
+    *(The topic currently being debated)*
+
+  - **Your Position**: {position}
+
+  - **Your Opening Statement**:  
+    ```  
+    {your_opening}  
+    ```
+
+  - **Opponent's Opening Statement**:  
+    ```  
+    {opponent_opening}  
+    ```
+
+  - **Judge’s Comments on the Opening Statements**:  
+    ```  
+    {judge_comments}  
+    ```
+
+  ---
+
+  ### 🎯 Rebuttal Objective
+
+  Your goal is to challenge the opponent’s arguments from their opening statement. Do the following:
+
+  1. **Identify the strongest points** your opponent made.
+  2. **Expose flaws, contradictions, or unsupported claims** in their arguments.
+  3. **Reinforce your own position** with additional reasoning and evidence.
+  4. Be respectful and logical — this is not a personal attack.
+
+  ---
+
+  ### 🔍 Web Search Encouragement
+
+  You are encouraged to perform one or more web searches to help strengthen your rebuttal. Use the web to:
+
+  - Fact-check your opponent’s claims
+  - Uncover data, examples, or research that contradict or weaken their position
+  - Support your rebuttal with timely and credible evidence
+
+  Prioritize high-quality sources: peer-reviewed papers, government data, expert commentary, and reliable journalism.
+
+  ---
+
+  ### 📘 Structure Guidelines
+
+  - Start by briefly restating the core of your opponent’s argument.
+  - Refute each point directly with logical reasoning and/or evidence.
+  - Use quotes, statistics, and expert sources to make your case.
+  - Transition smoothly between rebuttals.
+  - End with a short reinforcement of your own position and why it still stands strong.
+
+  ---
+
+  ### ✅ Final Checklist
+
+  Before finishing your rebuttal:
+  - [ ] Did you read and consider the judge’s feedback?
+  - [ ] Did you identify and focus on the opponent’s strongest claims?
+  - [ ] Did you perform at least one web search for evidence or counterexamples?
+  - [ ] Did you ensure logical flow and respectful tone?
+  - [ ] Did you avoid restating your entire opening?
+
+  ---
+
+  Now, use all the information available to you to craft a thoughtful and evidence-backed rebuttal.
